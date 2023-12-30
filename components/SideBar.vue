@@ -1,5 +1,4 @@
 <template>
-    <p>SideBar</p>
     <v-navigation-drawer>
         <v-list>
             <v-list-item v-for="item in inLinks" v-bind:key="item.key" v-bind:title="item.title"
