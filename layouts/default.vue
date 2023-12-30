@@ -1,8 +1,7 @@
 <template>
     <v-app>
-        <v-app-bar>
-            <v-app-bar-title>Reading recorder</v-app-bar-title>
-        </v-app-bar>
+        <!--AppBar /-->
+        <SideBar />
         <v-main>
             <slot />
         </v-main>
