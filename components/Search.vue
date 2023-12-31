@@ -1,6 +1,6 @@
 <template>
     <v-text-field label="キーワード" v-model="keyword"></v-text-field>
-    <v-btn v-on:click="onClick">Search</v-btn>
+    <v-btn v-on:click="onClick">検索</v-btn>
     <BookInfo v-for="(book, index) of books" v-bind:linkable="true" v-bind:book="book" v-bind:index="index + 1"
         v-bind:key="book.id"></BookInfo>
 </template>

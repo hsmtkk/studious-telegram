@@ -50,6 +50,9 @@ const published = computed(() => {
 
 const clicked = () => {
     console.log("clicked")
+    const selectedBookCookie = useCookie<Book | null>("selectedBook")
+    selectedBookCookie.value = props.book
+    navigateTo("form")
 }
 
 </script>
